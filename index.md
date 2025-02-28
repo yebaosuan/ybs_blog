@@ -7,7 +7,7 @@ hero:
   text: "文档记录"
   tagline: 记录学习，记录经历
   image:
-    src: /logo/logo.png
+    src: /logo/logo3.png
     alt: VitePress
   actions:
     - theme: brand
