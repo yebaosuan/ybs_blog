@@ -14,20 +14,20 @@ hero:
       text: 个人简历
       link: /resume
     - theme: alt
-      text: 前端知识
-      link: /api-examples
+      text: Java 技术栈
+      link: /InterviewQuestion/SpringCloud
 
 features:
   - icon: 💛
-    title: 通用型后台管理系统（Vue3 + TypeScript）
-    details: 常规管理系统后台模板，支持动态表单生成、多主题切换、国际化等企业级功能
-    link: "projects/后台管理/基础配置"
+    title: 学生教育管理系统（Spring Boot + Vue3 + Redis + MyBatis + Shiro）
+    details: 包含 EPC 金税、RPA 机器人应用与开发、纳税筹划综合教学平台、全税种教学实训平台、智能审计实践教学平台、智能出题系统、财务云等多个项目的项目开发包括学生端、教师端、以及管理端，系统多用于教学智能会计领为师生提供全面的在线学习与管理体验
+    link: "projects/EDC"
   - icon: 💜
-    title: 高仿网易云音乐项目（h5版）（uniapp + vue3）
-    details: 基于uniapp，1：1实现网易云音乐h5版本
-    link: "markdown-examples"
+    title: 高并发电商系统 (Spring Cloud + Elasticsearch + RabbitMQ + Docker)
+    details: 网上积分商城项目是一个基于SOA架构一共分为二十多个项目的微服务的在线商城系统 ，包括前台商城系统及后台管理系统 。
+    link: "projects/B2C"
   - icon: 💚
-    title: 陆渔生物科技企业级内部数据管理系统（React+Semi Design）
-    details: 面向企业内部的B/S架构数据管理平台，包含权限管理、数据看板等核心模块；实现RBAC四级权限体系，支持路由懒加载。
-    link: "markdown-examples"
+    title: 客户关系管理系统(Spring Boot + ELK + RSA + Nginx)
+    details: 客户关系管理项目包含用户信息概览(用户交易账号、身份地址验证情况)、用户个人资金(余额及适用情况)、用户交易 (出金、入金)、用户交易订单详情等模块。
+    link: "projects/CRM"
 ---

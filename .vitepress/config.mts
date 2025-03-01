@@ -14,7 +14,7 @@ export default defineConfigWithTheme({
     ],
   ],
   extends: escookConfig,
-  title: "小叶的前端笔记",
+  title: "小叶的JAVA笔记",
   description: "A VitePress Site",
   themeConfig: {
     logo: "/logo/Yzs-logo.png",
@@ -27,30 +27,33 @@ export default defineConfigWithTheme({
       { text: "首页", link: "/" },
       { text: "个人简历", link: "/resume" },
       {
-        text: "面试题",
+        text: "Java技术栈",
         items: [
           {
-            text: "HTML-CSS",
-            link: "/InterviewQuestion/HTML-CSS",
+            text: "Spring Cloud",
+            link: "/InterviewQuestion/SpringCloud",
           },
           {
-            text: "JavaScript",
-            link: "/InterviewQuestion/JS",
+            text: "Redis",
+            link: "/InterviewQuestion/Redis",
           },
         ],
         activeMatch: "^/InterviewQuestion/",
       },
-      { text: "前端知识", link: "/api-examples" },
       {
         text: "项目经历",
         items: [
           {
-            text: "通用型后台管理系统",
-            link: "/projects/后台管理/基础配置",
+            text: "学生教育管理系统",
+            link: "/projects/edc",
           },
           {
-            text: "陆渔生物科技企业级内部数据管理系统",
-            link: "/projects/陆渔生物科技",
+            text: "高并发电商系统",
+            link: "/projects/b2c",
+          },
+          {
+            text: "客户关系管理系统",
+            link: "/projects/crm",
           },
         ],
       },
@@ -58,26 +61,30 @@ export default defineConfigWithTheme({
     sidebar: {
       "/InterviewQuestion/": [
         {
-          text: "面试题",
+          text: "Java 技术栈",
           items: [
-            { text: "HTML-CSS", link: "/InterviewQuestion/HTML-CSS" },
-            { text: "JavaScript", link: "/InterviewQuestion/JS" },
+            { text: "Spring Cloud", link: "/InterviewQuestion/SpringCloud" },
+            { text: "Reids", link: "/InterviewQuestion/Redis" },
           ],
         },
       ],
-      "/projects/后台管理/": [
+      "/projects/": [
         {
-          text: "通用型后台管理系统",
+          text: "学生教育管理系统",
           items: [
             {
-              text: "基础配置",
-              link: "/projects/后台管理/基础配置",
+              text: "云课堂、考试系统",
+              link: "/projects/edc",
             },
           ],
         },
         {
-          text: "陆渔生物科技企业级内部数据管理系统",
-          items: [{ text: "用户管理", link: "/projects/后台管理/用户管理" }],
+          text: "高并发电商系统",
+          items: [{ text: "商品管理、支付管理", link: "/projects/b2c" }],
+        },
+        {
+          text: "客户关系管理系统",
+          items: [{ text: "用户验证、资产结算", link: "/projects/crm" }],
         },
       ],
     },
