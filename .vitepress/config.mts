@@ -3,7 +3,7 @@ import escookConfig from "@escook/vitepress-theme/config";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfigWithTheme({
-  // base: "/y-blog/",
+  base: "/y-blog/",
   head: [
     [
       "link",
@@ -90,7 +90,7 @@ export default defineConfigWithTheme({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/Topeceen/y-blog" },
+      { icon: "github", link: "https://github.com/yebaosuan/ybs_blog" },
     ],
   },
   vite: {
